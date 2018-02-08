@@ -5,10 +5,10 @@
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "test": "jest",
-    "postinstall":
-      "remotedev-debugger — hostname localhost — port 5678 — injectserver"
+    "postinstall": "remotedev-debugger — hostname localhost — port 5678 — injectserver"
   },
   "dependencies": {
+    "axios": "^0.17.1",
     "react": "16.2.0",
     "react-native": "0.53.0",
     "react-redux": "^5.0.6",
