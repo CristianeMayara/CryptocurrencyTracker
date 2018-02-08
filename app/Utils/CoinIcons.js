@@ -32,5 +32,7 @@ export default {
   IOTA:
     "https://res.cloudinary.com/da7jhtpgh/image/upload/v1516327102/miota_2x_zsvtqc.png",
   TRX:
-    "https://res.cloudinary.com/da7jhtpgh/image/upload/v1516326885/trx_2x_ukhxjm.png"
+    "https://res.cloudinary.com/da7jhtpgh/image/upload/v1516326885/trx_2x_ukhxjm.png",
+  EOS:
+    "https://cdn1.iconfinder.com/data/icons/cryptocurrency-2/100/cryptocurrency_blockchain_coin_crypto_btc_-10-512.png"
 };

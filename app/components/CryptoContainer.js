@@ -18,7 +18,8 @@ class CryptoContainer extends Component {
     return crypto.data.map((coin, index) => (
       <CoinCard
         key={index}
-        coin_name={coin.symbol}
+        symbol={coin.symbol}
+        coin_name={coin.name}
         price_usd={coin.price_usd}
         percent_change_7d={coin.percent_change_7d}
         percent_change_24h={coin.percent_change_24h}
@@ -28,6 +29,7 @@ class CryptoContainer extends Component {
 
   render() {
     const { crypto } = this.props;
+    const { contentContainer } = styles;
 
     if (crypto.isFetching) {
       return (
@@ -42,9 +44,20 @@ class CryptoContainer extends Component {
       );
     }
 
-    return <ScrollView>{this.renderCoinCards()}</ScrollView>;
+    return (
+      <ScrollView contentContainerStyle={contentContainer}>
+        {this.renderCoinCards()}
+      </ScrollView>
+    );
   }
 }
+
+const styles = {
+  contentContainer: {
+    paddingBottom: 45,
+    paddingTop: 35
+  }
+};
 
 function mapStateToProps(state) {
   return {
