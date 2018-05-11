@@ -1,4 +1,4 @@
-package com.cryptocurrent;
+package com.cryptocurrencytracker;
 
 import android.app.Application;
 
