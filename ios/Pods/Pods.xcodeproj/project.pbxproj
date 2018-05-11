@@ -1,0 +1,673 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0CDA482166AFF517081BA971E5B75EFF /* Pods-cryptocurrencyTracker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AE6664FF39B2BAA03EBA1B410C0F5922 /* Pods-cryptocurrencyTracker-dummy.m */; };
+		5972F1ADA753F35CA516000D4F5B356B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D154F4805B9715F0E6D79B0363CE280 /* Foundation.framework */; };
+		67D02953B6D10EB93C329D54D9A80667 /* Pods-cryptocurrencyTrackerTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B3BF8F2C8AAD141D96046CA332E5075 /* Pods-cryptocurrencyTrackerTests-dummy.m */; };
+		6842963706855FD515437DD98F2B1C2D /* Pods-cryptocurrencyTracker-tvOSTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BE5BAD20ED09121D95D8EB3199C3B6FB /* Pods-cryptocurrencyTracker-tvOSTests-dummy.m */; };
+		78660EA3CB301366B0955E9CCAA0B40D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 572DBE63D5360AB71E5F80F979738FD0 /* Foundation.framework */; };
+		867F10C4275A9247A675D39D9170D1AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D154F4805B9715F0E6D79B0363CE280 /* Foundation.framework */; };
+		A48A6179163CF8A6ED16FEB416FA65BF /* Pods-cryptocurrencyTracker-tvOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D5ACFB639180CC31B97B70F9D594F523 /* Pods-cryptocurrencyTracker-tvOS-dummy.m */; };
+		F0AB847F2509263CFF28CF95B11AD9C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D154F4805B9715F0E6D79B0363CE280 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0254EC56CB0B8E254AD2F8DCF80FD97C /* Pods-cryptocurrencyTracker-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-cryptocurrencyTracker-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		1217C0BDF4F7C923D5C3FEE46A8AA166 /* Pods-cryptocurrencyTracker-tvOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-cryptocurrencyTracker-tvOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		25F996739E446A690027E47623977D3F /* Pods-cryptocurrencyTracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-cryptocurrencyTracker.debug.xcconfig"; sourceTree = "<group>"; };
+		2D154F4805B9715F0E6D79B0363CE280 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		34A6634B3082CE278D3FF8D737CE7123 /* Pods-cryptocurrencyTracker-tvOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-cryptocurrencyTracker-tvOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		38A3CA50729A9986BFBE535599364776 /* Pods-cryptocurrencyTrackerTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-cryptocurrencyTrackerTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		38D06114B94B47A64F6AAB2C811A5D94 /* Pods-cryptocurrencyTrackerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-cryptocurrencyTrackerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		39D8889B266232D3ECDED60776E99DF7 /* Pods-cryptocurrencyTracker-tvOSTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-cryptocurrencyTracker-tvOSTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		47335A577FB1D92224ED4BDFC0364CF8 /* Pods-cryptocurrencyTracker-tvOSTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-cryptocurrencyTracker-tvOSTests-frameworks.sh"; sourceTree = "<group>"; };
+		572DBE63D5360AB71E5F80F979738FD0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS10.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5E35E8818C8845D183A7D7BF68E88EC1 /* Pods-cryptocurrencyTrackerTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-cryptocurrencyTrackerTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		636947C1AA8D0990F42A8231AEC46826 /* Pods-cryptocurrencyTracker-tvOSTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-cryptocurrencyTracker-tvOSTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6866D488EC2A480FB1752BD9DB6D8E96 /* libPods-cryptocurrencyTracker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-cryptocurrencyTracker.a"; path = "libPods-cryptocurrencyTracker.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DFC845DB14A55283FCE8F86698F473E /* Pods-cryptocurrencyTrackerTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-cryptocurrencyTrackerTests-resources.sh"; sourceTree = "<group>"; };
+		7B3BF8F2C8AAD141D96046CA332E5075 /* Pods-cryptocurrencyTrackerTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-cryptocurrencyTrackerTests-dummy.m"; sourceTree = "<group>"; };
+		84F747A6C3B557F0CCDCE785BDC9840E /* Pods-cryptocurrencyTracker-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-cryptocurrencyTracker-resources.sh"; sourceTree = "<group>"; };
+		8AE8E5E1DF882C1E4F3ABEE542A198E7 /* Pods-cryptocurrencyTracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-cryptocurrencyTracker.release.xcconfig"; sourceTree = "<group>"; };
+		918770718995E6CDF9F43A2F43ABAF2E /* Pods-cryptocurrencyTrackerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-cryptocurrencyTrackerTests.release.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		975C8913B91AA0B4CA3479DDE8FB6E8C /* Pods-cryptocurrencyTracker-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-cryptocurrencyTracker-acknowledgements.plist"; sourceTree = "<group>"; };
+		AC2A8DF270CC8A8D29BF83749979F8DF /* Pods-cryptocurrencyTracker-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-cryptocurrencyTracker-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		ACE97600BB4942F65ABD14FD0C13164E /* libPods-cryptocurrencyTracker-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-cryptocurrencyTracker-tvOSTests.a"; path = "libPods-cryptocurrencyTracker-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE6664FF39B2BAA03EBA1B410C0F5922 /* Pods-cryptocurrencyTracker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-cryptocurrencyTracker-dummy.m"; sourceTree = "<group>"; };
+		B821D87F454CD268C86CF5920ABB7DA1 /* Pods-cryptocurrencyTracker-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-cryptocurrencyTracker-frameworks.sh"; sourceTree = "<group>"; };
+		B93E7C1CF23D466B88755B10CEBC9F1B /* Pods-cryptocurrencyTracker-tvOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-cryptocurrencyTracker-tvOS-frameworks.sh"; sourceTree = "<group>"; };
+		BE5BAD20ED09121D95D8EB3199C3B6FB /* Pods-cryptocurrencyTracker-tvOSTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-cryptocurrencyTracker-tvOSTests-dummy.m"; sourceTree = "<group>"; };
+		C024488F951BAE18F1375D3557F94AD2 /* Pods-cryptocurrencyTracker-tvOSTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-cryptocurrencyTracker-tvOSTests-resources.sh"; sourceTree = "<group>"; };
+		C880AA43AACA174793DD845D0A8E1801 /* Pods-cryptocurrencyTracker-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-cryptocurrencyTracker-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D5ACFB639180CC31B97B70F9D594F523 /* Pods-cryptocurrencyTracker-tvOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-cryptocurrencyTracker-tvOS-dummy.m"; sourceTree = "<group>"; };
+		E3FE20E91664ACF4750E8A2409458A40 /* Pods-cryptocurrencyTracker-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-cryptocurrencyTracker-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E72B9B7FB541EF2D89A32A46E2FDDC75 /* Pods-cryptocurrencyTracker-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-cryptocurrencyTracker-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		F04E3264FCABBF5E1889A004E00A3CDF /* libPods-cryptocurrencyTrackerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-cryptocurrencyTrackerTests.a"; path = "libPods-cryptocurrencyTrackerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2893DF1BE1C9DA49B813F22ACAE3AAE /* Pods-cryptocurrencyTracker-tvOS-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-cryptocurrencyTracker-tvOS-resources.sh"; sourceTree = "<group>"; };
+		F99D96216777CA9F2F92BC933B1D758A /* libPods-cryptocurrencyTracker-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-cryptocurrencyTracker-tvOS.a"; path = "libPods-cryptocurrencyTracker-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9F8CB0E22BE5119FFEFA117BF621ED7 /* Pods-cryptocurrencyTrackerTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-cryptocurrencyTrackerTests-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44F1A1360EE4D61204052E5B2E05D26B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				867F10C4275A9247A675D39D9170D1AB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BB6EB2933687CBDDEF3E1897B0E1AB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0AB847F2509263CFF28CF95B11AD9C3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7AC09C13FC0150B4DC775E4589B7673 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5972F1ADA753F35CA516000D4F5B356B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECF25CC26D4AAD050FF6CCD3DA61D2FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78660EA3CB301366B0955E9CCAA0B40D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0ABECF9C5F3106E8F3F52FDCA6A6EC02 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4754C7CF53917A27F974B3EA76B3F872 /* Pods-cryptocurrencyTracker */,
+				B7E7DABB57E695402274C3510AB85CF4 /* Pods-cryptocurrencyTracker-tvOS */,
+				D6054436D0043FAE2F37981909432218 /* Pods-cryptocurrencyTracker-tvOSTests */,
+				12F558C800E831CFD33CA1201F458E7C /* Pods-cryptocurrencyTrackerTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		12F558C800E831CFD33CA1201F458E7C /* Pods-cryptocurrencyTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				38A3CA50729A9986BFBE535599364776 /* Pods-cryptocurrencyTrackerTests-acknowledgements.markdown */,
+				5E35E8818C8845D183A7D7BF68E88EC1 /* Pods-cryptocurrencyTrackerTests-acknowledgements.plist */,
+				7B3BF8F2C8AAD141D96046CA332E5075 /* Pods-cryptocurrencyTrackerTests-dummy.m */,
+				F9F8CB0E22BE5119FFEFA117BF621ED7 /* Pods-cryptocurrencyTrackerTests-frameworks.sh */,
+				6DFC845DB14A55283FCE8F86698F473E /* Pods-cryptocurrencyTrackerTests-resources.sh */,
+				38D06114B94B47A64F6AAB2C811A5D94 /* Pods-cryptocurrencyTrackerTests.debug.xcconfig */,
+				918770718995E6CDF9F43A2F43ABAF2E /* Pods-cryptocurrencyTrackerTests.release.xcconfig */,
+			);
+			name = "Pods-cryptocurrencyTrackerTests";
+			path = "Target Support Files/Pods-cryptocurrencyTrackerTests";
+			sourceTree = "<group>";
+		};
+		20F731AE46C73F232AF0C168DC383CF9 /* tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				572DBE63D5360AB71E5F80F979738FD0 /* Foundation.framework */,
+			);
+			name = tvOS;
+			sourceTree = "<group>";
+		};
+		4754C7CF53917A27F974B3EA76B3F872 /* Pods-cryptocurrencyTracker */ = {
+			isa = PBXGroup;
+			children = (
+				E3FE20E91664ACF4750E8A2409458A40 /* Pods-cryptocurrencyTracker-acknowledgements.markdown */,
+				975C8913B91AA0B4CA3479DDE8FB6E8C /* Pods-cryptocurrencyTracker-acknowledgements.plist */,
+				AE6664FF39B2BAA03EBA1B410C0F5922 /* Pods-cryptocurrencyTracker-dummy.m */,
+				B821D87F454CD268C86CF5920ABB7DA1 /* Pods-cryptocurrencyTracker-frameworks.sh */,
+				84F747A6C3B557F0CCDCE785BDC9840E /* Pods-cryptocurrencyTracker-resources.sh */,
+				25F996739E446A690027E47623977D3F /* Pods-cryptocurrencyTracker.debug.xcconfig */,
+				8AE8E5E1DF882C1E4F3ABEE542A198E7 /* Pods-cryptocurrencyTracker.release.xcconfig */,
+			);
+			name = "Pods-cryptocurrencyTracker";
+			path = "Target Support Files/Pods-cryptocurrencyTracker";
+			sourceTree = "<group>";
+		};
+		58996781A54EE964D7111D73083A18A5 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2D154F4805B9715F0E6D79B0363CE280 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				A42F72DC1D780481325DD00969B19BB6 /* Frameworks */,
+				A85D6B69DF310982692CB7F1213C88F9 /* Products */,
+				0ABECF9C5F3106E8F3F52FDCA6A6EC02 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A42F72DC1D780481325DD00969B19BB6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				58996781A54EE964D7111D73083A18A5 /* iOS */,
+				20F731AE46C73F232AF0C168DC383CF9 /* tvOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A85D6B69DF310982692CB7F1213C88F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6866D488EC2A480FB1752BD9DB6D8E96 /* libPods-cryptocurrencyTracker.a */,
+				F99D96216777CA9F2F92BC933B1D758A /* libPods-cryptocurrencyTracker-tvOS.a */,
+				ACE97600BB4942F65ABD14FD0C13164E /* libPods-cryptocurrencyTracker-tvOSTests.a */,
+				F04E3264FCABBF5E1889A004E00A3CDF /* libPods-cryptocurrencyTrackerTests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B7E7DABB57E695402274C3510AB85CF4 /* Pods-cryptocurrencyTracker-tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				34A6634B3082CE278D3FF8D737CE7123 /* Pods-cryptocurrencyTracker-tvOS-acknowledgements.markdown */,
+				1217C0BDF4F7C923D5C3FEE46A8AA166 /* Pods-cryptocurrencyTracker-tvOS-acknowledgements.plist */,
+				D5ACFB639180CC31B97B70F9D594F523 /* Pods-cryptocurrencyTracker-tvOS-dummy.m */,
+				B93E7C1CF23D466B88755B10CEBC9F1B /* Pods-cryptocurrencyTracker-tvOS-frameworks.sh */,
+				F2893DF1BE1C9DA49B813F22ACAE3AAE /* Pods-cryptocurrencyTracker-tvOS-resources.sh */,
+				E72B9B7FB541EF2D89A32A46E2FDDC75 /* Pods-cryptocurrencyTracker-tvOS.debug.xcconfig */,
+				AC2A8DF270CC8A8D29BF83749979F8DF /* Pods-cryptocurrencyTracker-tvOS.release.xcconfig */,
+			);
+			name = "Pods-cryptocurrencyTracker-tvOS";
+			path = "Target Support Files/Pods-cryptocurrencyTracker-tvOS";
+			sourceTree = "<group>";
+		};
+		D6054436D0043FAE2F37981909432218 /* Pods-cryptocurrencyTracker-tvOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				39D8889B266232D3ECDED60776E99DF7 /* Pods-cryptocurrencyTracker-tvOSTests-acknowledgements.markdown */,
+				636947C1AA8D0990F42A8231AEC46826 /* Pods-cryptocurrencyTracker-tvOSTests-acknowledgements.plist */,
+				BE5BAD20ED09121D95D8EB3199C3B6FB /* Pods-cryptocurrencyTracker-tvOSTests-dummy.m */,
+				47335A577FB1D92224ED4BDFC0364CF8 /* Pods-cryptocurrencyTracker-tvOSTests-frameworks.sh */,
+				C024488F951BAE18F1375D3557F94AD2 /* Pods-cryptocurrencyTracker-tvOSTests-resources.sh */,
+				C880AA43AACA174793DD845D0A8E1801 /* Pods-cryptocurrencyTracker-tvOSTests.debug.xcconfig */,
+				0254EC56CB0B8E254AD2F8DCF80FD97C /* Pods-cryptocurrencyTracker-tvOSTests.release.xcconfig */,
+			);
+			name = "Pods-cryptocurrencyTracker-tvOSTests";
+			path = "Target Support Files/Pods-cryptocurrencyTracker-tvOSTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5773B01BF8A9FF45F778E5F99E51B8CC /* Pods-cryptocurrencyTracker-tvOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3297640A9F8E486461FDB44FA9E5B1C4 /* Build configuration list for PBXNativeTarget "Pods-cryptocurrencyTracker-tvOSTests" */;
+			buildPhases = (
+				6F26FE9C014CDAFDD84D5222647960AC /* Sources */,
+				5BB6EB2933687CBDDEF3E1897B0E1AB2 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-cryptocurrencyTracker-tvOSTests";
+			productName = "Pods-cryptocurrencyTracker-tvOSTests";
+			productReference = ACE97600BB4942F65ABD14FD0C13164E /* libPods-cryptocurrencyTracker-tvOSTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C65BC5D71C839F7282BD71FED01415EB /* Pods-cryptocurrencyTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEEB4253A33AC59D22DE140122177E99 /* Build configuration list for PBXNativeTarget "Pods-cryptocurrencyTrackerTests" */;
+			buildPhases = (
+				752E2774707278E41BC7B60E87286FF1 /* Sources */,
+				44F1A1360EE4D61204052E5B2E05D26B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-cryptocurrencyTrackerTests";
+			productName = "Pods-cryptocurrencyTrackerTests";
+			productReference = F04E3264FCABBF5E1889A004E00A3CDF /* libPods-cryptocurrencyTrackerTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E723B161F89955366CA06E494D1942F7 /* Pods-cryptocurrencyTracker-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D24A519F19E792514509DDB19D1A6643 /* Build configuration list for PBXNativeTarget "Pods-cryptocurrencyTracker-tvOS" */;
+			buildPhases = (
+				4BE3E182D4DE5C2EBA7B85E359D12255 /* Sources */,
+				ECF25CC26D4AAD050FF6CCD3DA61D2FE /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-cryptocurrencyTracker-tvOS";
+			productName = "Pods-cryptocurrencyTracker-tvOS";
+			productReference = F99D96216777CA9F2F92BC933B1D758A /* libPods-cryptocurrencyTracker-tvOS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E9450A520C4B9AF4C523FE1E03017580 /* Pods-cryptocurrencyTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14971FCC9A27498154AC0714779529D6 /* Build configuration list for PBXNativeTarget "Pods-cryptocurrencyTracker" */;
+			buildPhases = (
+				0E4ABF4C4CC7AA4635E4C2CB3DBA8D1C /* Sources */,
+				E7AC09C13FC0150B4DC775E4589B7673 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-cryptocurrencyTracker";
+			productName = "Pods-cryptocurrencyTracker";
+			productReference = 6866D488EC2A480FB1752BD9DB6D8E96 /* libPods-cryptocurrencyTracker.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = A85D6B69DF310982692CB7F1213C88F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9450A520C4B9AF4C523FE1E03017580 /* Pods-cryptocurrencyTracker */,
+				E723B161F89955366CA06E494D1942F7 /* Pods-cryptocurrencyTracker-tvOS */,
+				5773B01BF8A9FF45F778E5F99E51B8CC /* Pods-cryptocurrencyTracker-tvOSTests */,
+				C65BC5D71C839F7282BD71FED01415EB /* Pods-cryptocurrencyTrackerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E4ABF4C4CC7AA4635E4C2CB3DBA8D1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CDA482166AFF517081BA971E5B75EFF /* Pods-cryptocurrencyTracker-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BE3E182D4DE5C2EBA7B85E359D12255 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A48A6179163CF8A6ED16FEB416FA65BF /* Pods-cryptocurrencyTracker-tvOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F26FE9C014CDAFDD84D5222647960AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6842963706855FD515437DD98F2B1C2D /* Pods-cryptocurrencyTracker-tvOSTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		752E2774707278E41BC7B60E87286FF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67D02953B6D10EB93C329D54D9A80667 /* Pods-cryptocurrencyTrackerTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0364572C743B44FE1D870C0931B3762E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AE8E5E1DF882C1E4F3ABEE542A198E7 /* Pods-cryptocurrencyTracker.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		19498D7C528A7096D231B2727F9128A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC2A8DF270CC8A8D29BF83749979F8DF /* Pods-cryptocurrencyTracker-tvOS.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		282A9A5183558DD660B7C173E1AD44B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Release;
+		};
+		7D4F00E652A1B490EF7D47BDE09D6417 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38D06114B94B47A64F6AAB2C811A5D94 /* Pods-cryptocurrencyTrackerTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		950493A7235D39FE1556E670C957D9D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0254EC56CB0B8E254AD2F8DCF80FD97C /* Pods-cryptocurrencyTracker-tvOSTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9620EC7444CC3E5811B670959728F4C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 918770718995E6CDF9F43A2F43ABAF2E /* Pods-cryptocurrencyTrackerTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		98F6CF090EAC23466522E28061252014 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E72B9B7FB541EF2D89A32A46E2FDDC75 /* Pods-cryptocurrencyTracker-tvOS.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		9D625C3752B9B2C9659751DEA05FE98B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		A3F631DF2226B51132258CFC9C74DF3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C880AA43AACA174793DD845D0A8E1801 /* Pods-cryptocurrencyTracker-tvOSTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E1361E5FF13305A811C221B7FB3193A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25F996739E446A690027E47623977D3F /* Pods-cryptocurrencyTracker.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14971FCC9A27498154AC0714779529D6 /* Build configuration list for PBXNativeTarget "Pods-cryptocurrencyTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1361E5FF13305A811C221B7FB3193A9 /* Debug */,
+				0364572C743B44FE1D870C0931B3762E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D625C3752B9B2C9659751DEA05FE98B /* Debug */,
+				282A9A5183558DD660B7C173E1AD44B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3297640A9F8E486461FDB44FA9E5B1C4 /* Build configuration list for PBXNativeTarget "Pods-cryptocurrencyTracker-tvOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3F631DF2226B51132258CFC9C74DF3E /* Debug */,
+				950493A7235D39FE1556E670C957D9D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEEB4253A33AC59D22DE140122177E99 /* Build configuration list for PBXNativeTarget "Pods-cryptocurrencyTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D4F00E652A1B490EF7D47BDE09D6417 /* Debug */,
+				9620EC7444CC3E5811B670959728F4C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D24A519F19E792514509DDB19D1A6643 /* Build configuration list for PBXNativeTarget "Pods-cryptocurrencyTracker-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98F6CF090EAC23466522E28061252014 /* Debug */,
+				19498D7C528A7096D231B2727F9128A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
